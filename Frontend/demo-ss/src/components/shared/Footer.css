@@ -1,0 +1,27 @@
+.footer {
+  background-color: #f8f9fa;
+  padding: 40px 0 20px;
+  color: #333;
+}
+
+.footer h5 {
+  color: #0d6efd;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.footer a {
+  color: #495057;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.footer address {
+  font-style: normal;
+  line-height: 1.8;
+}

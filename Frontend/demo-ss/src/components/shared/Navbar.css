@@ -1,0 +1,16 @@
+.school-navbar {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 10px 0;
+}
+
+.school-navbar .nav-link {
+  color: #333;
+  font-weight: 500;
+  margin: 0 5px;
+  transition: color 0.3s;
+}
+
+.school-navbar .nav-link:hover {
+  color: #0d6efd;
+}

@@ -1,0 +1,88 @@
+.student-login-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.login-card {
+  border: none;
+  border-radius: 20px;
+}
+
+.login-card .card-header {
+  background: linear-gradient(135deg, #3a5a78 0%, #2c4a68 100%);
+  color: white;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  padding: 40px 30px;
+}
+
+.login-card .card-header h2 {
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.login-card .card-body {
+  padding: 40px;
+}
+
+.nav-tabs {
+  border: none;
+  margin-bottom: 30px;
+}
+
+.nav-tabs .nav-link {
+  border: none;
+  color: #6c757d;
+  font-weight: 600;
+  padding: 15px 30px;
+  border-radius: 10px;
+  margin-right: 10px;
+  transition: all 0.3s ease;
+}
+
+.nav-tabs .nav-link.active {
+  background: linear-gradient(135deg, #3a5a78 0%, #2c4a68 100%);
+  color: white;
+  border: none;
+}
+
+.nav-tabs .nav-link:hover {
+  border: none;
+  color: #3a5a78;
+}
+
+.form-label {
+  font-weight: 600;
+  color: #3a5a78;
+  margin-bottom: 8px;
+}
+
+.form-control, .form-select {
+  border: 2px solid #e9ecef;
+  border-radius: 10px;
+  padding: 12px 15px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #3a5a78 0%, #2c4a68 100%);
+  border: none;
+  border-radius: 10px;
+  padding: 15px 30px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+}

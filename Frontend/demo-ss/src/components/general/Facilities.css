@@ -1,0 +1,141 @@
+.facilities-page {
+  font-family: 'Roboto', sans-serif;
+}
+
+.facilities-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://tse4.mm.bing.net/th/id/OIP.L10fsplusDM_H5oLIorzrAHaFO?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3.jpeg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.facilities-hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.facilities-intro h2 {
+  color: #333;
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.facilities-intro h2:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  width: 50%;
+  height: 3px;
+  background-color: #007bff;
+}
+
+.facility-card {
+  height: 100%;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+  text-align: center;
+  padding: 10px;
+}
+
+.facility-card:hover {
+  transform: translateY(-5px);
+}
+
+.facility-icon {
+  font-size: 40px;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.facility-card .card-title {
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.facility-gallery h2 {
+  color: #333;
+  margin-bottom: 30px;
+  position: relative;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.facility-gallery h2:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  width: 50%;
+  height: 3px;
+  background-color: #007bff;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  height: 250px;
+}
+
+.gallery-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.5s;
+}
+
+.gallery-item:hover .gallery-image {
+  transform: scale(1.1);
+}
+
+.gallery-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 123, 255, 0.8);
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.gallery-overlay h5 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.image-1 {
+  background-image: url('https://tse4.mm.bing.net/th/id/OIP.d8FyaqT8WkX-0Ss4cx37owHaFk?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3.jpeg');
+}
+
+.image-2 {
+  background-image: url('https://www.gulfcoast.edu/academics/degrees-programs/program-by-pathway/science-technology-engineering-and-math-stem/clinical-laboratory-science-aa/images/laboratory-equipment.jpeg');
+}
+
+.image-3 {
+  background-image: url('https://img.freepik.com/free-photo/library-with-books_1063-98.jpg?w=1380&t=st=1686146300~exp=1686146900~hmac=5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e');
+}
+
+.image-4 {
+  background-image: url('https://static.wixstatic.com/media/228047_74a77397cb8f48b286f97497a0470506~mv2.jpg/v1/fill/w_396,h_221,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/DSC_0772.jpg');
+}
+
+.image-5 {
+  background-image: url('https://www.dezacalidad.es/wp-content/uploads/2016/04/3B2A9778_ret1.jpg');
+}
+
+@media (max-width: 768px) {
+  .facilities-hero h1 {
+    font-size: 2rem;
+  }
+}

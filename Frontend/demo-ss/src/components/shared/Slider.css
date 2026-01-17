@@ -1,0 +1,48 @@
+.main-slider {
+  margin-bottom: 30px;
+}
+
+.slider-image {
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.slide1 {
+  background-image: url('https://tse4.mm.bing.net/th/id/OIP.yY9XRPxMXXnmDhvQsHuyCgHaE8?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3.jpeg');
+}
+
+.slide2 {
+  background-image: url('https://th.bing.com/th/id/OIP.RdiWpzS15KgaiM3PvX_adgHaFj?o=7&cb=12rm=3&rs=1&pid=ImgDetMain&o=7&rm=3.jpeg');
+}
+
+.slide3 {
+  background-image: url('https://img.freepik.com/free-photo/students-knowing-right-answer_329181-14271.jpg');
+}
+.slider-image-1 {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://img.freepik.com/free-photo/group-diverse-students-having-computer-class_53876-46761.jpg');
+}
+
+.slider-image-2 {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://img.freepik.com/free-photo/indian-students-university-campus_107420-95164.jpg');
+}
+
+.slider-image-3 {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://img.freepik.com/free-photo/group-indian-students-classroom_107420-95162.jpg');
+}
+
+.carousel-caption {
+  bottom: 30%;
+}
+
+.carousel-caption h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.carousel-caption p {
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}

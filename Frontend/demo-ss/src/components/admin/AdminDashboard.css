@@ -1,0 +1,63 @@
+.admin-dashboard h2 {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.status-badge {
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.status-approved {
+  background-color: rgba(25, 135, 84, 0.1);
+  color: #198754;
+}
+
+.status-pending {
+  background-color: rgba(255, 193, 7, 0.1);
+  color: #ffc107;
+}
+
+.status-rejected {
+  background-color: rgba(220, 53, 69, 0.1);
+  color: #dc3545;
+}
+
+.quick-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.quick-action-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 100px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.quick-action-btn:hover {
+  background-color: #e9ecef;
+  transform: translateY(-5px);
+}
+
+.quick-action-btn i {
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+  color: #0d6efd;
+}
+
+.quick-action-btn span {
+  font-size: 0.9rem;
+  color: #495057;
+}

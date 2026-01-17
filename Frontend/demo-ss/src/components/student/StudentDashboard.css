@@ -1,0 +1,237 @@
+.student-dashboard {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.dashboard-header {
+  background: linear-gradient(135deg, #3a5a78 0%, #2c4a68 100%);
+  color: white;
+  padding: 20px 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-header h2 {
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.dashboard-content {
+  padding: 30px 0;
+}
+
+.sidebar {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.sidebar-menu {
+  padding: 20px 0;
+}
+
+.menu-item {
+  padding: 15px 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-left: 4px solid transparent;
+  font-weight: 500;
+  color: #6c757d;
+}
+
+.menu-item:hover {
+  background-color: #f8f9fa;
+  color: #3a5a78;
+}
+
+.menu-item.active {
+  background-color: #e7f1ff;
+  color: #3a5a78;
+  border-left-color: #3a5a78;
+}
+
+.main-content {
+  padding-left: 30px;
+}
+
+.stats-cards {
+  margin-bottom: 30px;
+}
+
+.stat-card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.stat-card .card-body {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.stat-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  font-size: 24px;
+  color: white;
+}
+
+.courses-icon {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.assignments-icon {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.grades-icon {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+.attendance-icon {
+  background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+}
+
+.stat-card h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #3a5a78;
+}
+
+.stat-card p {
+  color: #6c757d;
+  font-weight: 500;
+  margin: 0;
+}
+
+.recent-courses, .recent-activity {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  height: 100%;
+}
+
+.recent-courses .card-header, .recent-activity .card-header {
+  background: linear-gradient(135deg, #3a5a78 0%, #2c4a68 100%);
+  color: white;
+  border: none;
+  border-radius: 15px 15px 0 0;
+  padding: 20px 25px;
+}
+
+.recent-courses .card-header h5, .recent-activity .card-header h5 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.recent-courses .card-body, .recent-activity .card-body {
+  padding: 25px;
+}
+
+.table th {
+  border: none;
+  color: #3a5a78;
+  font-weight: 600;
+  padding: 15px 10px;
+}
+
+.table td {
+  border: none;
+  padding: 15px 10px;
+  vertical-align: middle;
+}
+
+.status-active {
+  background: #d4edda;
+  color: #155724;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.progress {
+  height: 8px;
+  border-radius: 4px;
+  background-color: #e9ecef;
+}
+
+.progress-bar {
+  background: linear-gradient(135deg, #3a5a78 0%, #2c4a68 100%);
+  border-radius: 4px;
+}
+
+.activity-item {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #f1f3f4;
+}
+
+.activity-item:last-child {
+  border-bottom: none;
+}
+
+.activity-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #3a5a78 0%, #2c4a68 100%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+.activity-content p {
+  margin: 0;
+  font-weight: 500;
+  color: #3a5a78;
+}
+
+.activity-content small {
+  color: #6c757d;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #3a5a78 0%, #2c4a68 100%);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(58, 90, 120, 0.4);
+}
+
+.btn-outline-light {
+  border: 2px solid white;
+  color: white;
+  font-weight: 600;
+  padding: 8px 20px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-light:hover {
+  background: white;
+  color: #3a5a78;
+}
